@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, redirect, url_for
 from sqla_wrapper import SQLAlchemy
-
+import os
 
 app = Flask(__name__)
 # db = SQLAlchemy("sqlite:///db.sqlite")
